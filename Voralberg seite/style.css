@@ -1,0 +1,65 @@
+* {
+    --front-size-big: 2rem;
+    --front-size-medium: 1.2rem;
+    --front-size-normal: 0.8rem;
+}
+
+.menu {
+    background-color: darkred;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.wrapper {
+    width: 900px;
+}
+
+.menu {
+    background-color: red;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.a {
+    margin-left: 50px;
+}
+
+.m2 {
+    background-color: red;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.teaser {
+    background-image: url('covid.jpg');
+    background-size: cover;
+    height: 600px;
+    position: relative;
+}
+
+.text {
+    height: 500px;
+    justify-content: center;
+    display: flex;
+}
+
+.intext {
+    background-color: white;
+    height: 200px;
+    font-size: var(--front-size-big);
+    margin-top: -50px;
+    text-align: center;
+    position: absolute;
+}
+
+.intext2 {
+    height: 200px;
+    font-size: var(--front-size-medium);
+    margin-top: 20px;
+    position: absolute;
+}
