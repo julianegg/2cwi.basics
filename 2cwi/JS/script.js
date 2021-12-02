@@ -10,7 +10,7 @@ console.log("A hat den wert " + a);
 
 
 
-console.log("a + b ");
+
 
 //rechnungsarten 
 // *, /, +, -
@@ -20,7 +20,25 @@ console.log("a + b ");
 
 
 Ergebnis = a + b + c;
-console.log("a + b + c = " + Ergebnis);
+console.log(Ergebnis);
 
 Ergebnis = c - a + b;
-console.log("c - a + b =" + Ergebnis)
+console.log(Ergebnis)
+
+
+let d = 7.4;
+let e = 7.5;
+
+Ergebnis = d + e;
+console.log(Ergebnis)
+
+//Texte STRINGS
+
+let Name = "juli";
+console.log(Name);
+
+Ergebnis = a + b;
+console.log("das ergebnis von " + a + " und " + b + " ist " + Ergebnis);
+
+nic = d - e;
+console.log("das ergebnis von " + d + " und " - e + "  ist " + nic);
