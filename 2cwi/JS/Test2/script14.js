@@ -1,8 +1,10 @@
-//Aufgabe03
+let output = 0
+for (let count = 10; count > 0; count--) {
 
+    let Random = Math.random() * 100;
+    let RandomAsInteger = Math.round(Random);
 
-
-
-function getRandomArbitrary(min, max) {
-    return Math.random() * (max - min) + min;
+    console.log(RandomAsInteger)
+    output = (output + RandomAsInteger)
 }
+console.log("Die Summe der 10 Zufallszahlen ist " + output);
